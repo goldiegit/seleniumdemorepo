@@ -25,6 +25,8 @@ public class ToolTip {
 		WebElement inputbox = driver.findElement(By.id("age"));
 
 		String toolTipText = inputbox.getAttribute("title");
+		
+		System.out.println("hello");
 
 		Assert.assertEquals(toolTipText, "We ask for your age only for statistical purposes.");
 
