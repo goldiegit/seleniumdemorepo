@@ -26,7 +26,7 @@ public class ToolTip {
 
 		String toolTipText = inputbox.getAttribute("title");
 		
-		System.out.println("how are you ");
+		System.out.println("how are you  ");
 
 		Assert.assertEquals(toolTipText, "We ask for your age only for statistical purposes.");
 
